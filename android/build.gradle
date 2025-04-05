@@ -1,0 +1,37 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext.kotlin_version = '1.9.22'
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()  // Required for plugin resolution
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.3.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.gms:google-services:4.3.15'
+        // Removed explicit kotlin-dsl plugin as it's not typically needed in Flutter projects
+    }
+}
+
+plugins {
+    id 'com.google.gms.google-services' version '4.3.15' apply false
+    // Removed kotlin-dsl plugin as it may cause conflicts
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+    project.evaluationDependsOn(':app')
+}
+
+tasks.register('clean', Delete) {
+    delete rootProject.buildDir
+}

@@ -1,0 +1,2 @@
+D:/Voter_app/voter_app/android/app/.cxx/Debug/42lh3c11/x86/CMakeFiles/edit_cache.dir
+D:/Voter_app/voter_app/android/app/.cxx/Debug/42lh3c11/x86/CMakeFiles/rebuild_cache.dir
