@@ -1,16 +1,24 @@
-# VoteNet
+# 🗳️ VoteNet - Secure QR-Based Voting System  
 
-A new Flutter project.
+**A fast and fraud-proof voting application that automates voter verification using QR codes and Firebase security.**  
 
-## Getting Started
+🏆 **Developed for**: GDG on Campus Solution Challenge  
+⚔️ **Team Name**: NodeX  
+👨‍💻 **Team Members**: Kundan Singh (Team Leader), Kavita Mishra, Atul Kesharwani, Subh Seth  
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🔥 Key Features  
+✅ **Online Voter Registration** – Voters register and receive a unique QR code.  
+✅ **Anti-Duplicate Registration** – Firebase Firestore prevents duplicate signups.  
+✅ **Real-Time QR Verification** – Polling officers validate voters instantly via QR scan.  
+✅ **Anti-Duplicate Voting** – QR codes are deactivated after first use.  
+✅ **Officer Authentication** – Secure admin portal with role-based access.  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack  
+- **Frontend**: Flutter (Android/iOS)  
+- **Backend**: Firebase (Auth, Firestore, Cloud Functions)  
+- **QR Generation**: `qr_flutter` package  
+- **Database**: Firestore (NoSQL, real-time updates)  
