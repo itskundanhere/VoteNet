@@ -1,4 +1,4 @@
-# voter_app
+# VoteNet
 
 A new Flutter project.
 
