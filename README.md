@@ -4,7 +4,7 @@
 
 🏆 **Developed for**: GDG on Campus Solution Challenge  
 ⚔️ **Team Name**: NodeX  
-👨‍💻 **Team Members**: Kundan Singh (Team Leader), Kavita Mishra, Atul Kesharwani, Subh Seth  
+👨‍💻 **Team Members**: Kundan Singh (Team Leader), Kavita Mishra, Atul Kesharwani
 
 ---
 
